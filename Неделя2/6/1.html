@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Pixel Design</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+    }
+
+    /* Хедер */
+    .topbar {
+      background-color: navy;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .topbar img {
+      vertical-align: middle;
+      margin-right: 20px;
+    }
+
+    .topbar a {
+      background-color: lightblue;
+      color: black;
+      padding: 5px 10px;
+      margin: 0 10px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    /* Заголовок */
+    h1 {
+      text-align: center;
+      font-size: 32px;
+      margin: 20px 0 5px;
+    }
+
+    hr {
+      width: 90%;
+      border: none;
+      border-top: 2px solid purple;
+    }
+
+    /* Секция статей */
+    .posts {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin: 20px auto;
+      width: 90%;
+    }
+
+    .post {
+      width: 250px;
+      border: 2px solid #ccc;
+      padding: 15px;
+      text-align: left;
+      background-color: white;
+      transition: box-shadow 0.3s ease;
+    }
+
+    .post:hover {
+      box-shadow: 0 5px 5px 5px gray;
+    }
+
+    .post h3 {
+      color: blueviolet;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    .post p {
+      font-size: 14px;
+    }
+
+    .post img {
+      display: block;
+      margin: 10px auto;
+      height: 120px;
+    }
+
+    /* Контакты */
+    .footer {
+      background-color: lightblue;
+      width: 100%;
+      padding: 10px;
+      margin-top: 30px;
+    }
+
+    .footer table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .footer th, .footer td {
+      padding: 10px;
+      border: 1px solid white;
+      text-align: left;
+    }
+
+    .footer th {
+      background-color: #e0f5ff;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="topbar">
+    <img src="https://img.icons8.com/ios-filled/50/computer-support.png" alt="logo">
+    <a href="#">Новости</a>
+    <a href="#">Конкурс</a>
+    <a href="#">Планы развития</a>
+  </div>
+
+  <h1>Pixel Design</h1>
+  <hr>
+
+  <div class="posts">
+    <div class="post">
+      <h3>Наши последние новости</h3>
+      <img src="https://img.icons8.com/ios/100/monitor--v2.png" alt="news">
+      <p>
+        В нашей студии новый дизайнер: пиксель Cube. Именно он будет выполнять ваши заказы по трёхмерной графике.
+        Увлекается ландшафтным и интерьерным дизайном. Недавно он давал интервью газете <b><i>Progress news</i></b>.
+      </p>
+    </div>
+
+    <div class="post">
+      <h3>Готовимся к конкурсу</h3>
+      <img src="https://img.icons8.com/ios/100/conference.png" alt="contest">
+      <p>
+        Весной следующего года мы участвуем в конкурсе дизайна. Наши работы будут представлены в направлениях:
+        <b><i>веб-дизайн, полиграфический дизайн, дизайн интерьеров</i></b>.
+        По каждому направлению мы собираемся представить несколько работ, которые пройдут предварительный отбор в нашей студии.
+      </p>
+    </div>
+
+    <div class="post">
+      <h3>Планы развития</h3>
+      <img src="https://img.icons8.com/ios/100/task.png" alt="plans">
+      <p>
+        В этом месяце мы готовим годовое планирование нашей работы. Кроме того, что мы принимаем и выполняем клиентские заказы по дизайну,
+        мы участвуем в конкурсах, учимся на онлайн курсах, просматриваем сборники лучших работ, которые можно найти в Интернете.
+      </p>
+    </div>
+  </div>
+
+  <div class="footer">
+    <table>
+      <tr><th>Контакты</th></tr>
+      <tr><td>Адрес: г. Техноград, ул. Дисплейная, 15</td></tr>
+      <tr><td>Тел.: 8895-6341</td></tr>
+    </table>
+  </div>
+
+</body>
+</html>
