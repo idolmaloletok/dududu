@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Болдеринг</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWEE8aFIQS_5F89x_3nxPXNsd5pKuqk3f-qQ&s/1200x200');
+            background-size: cover;
+            height: 200px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+        }
+        h1 {
+            font-size: 48px;
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .image-grid {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+        .image-grid img {
+            width: 10%;
+            height: 100;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .text-block {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .text-block p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .text-block a {
+            color: #007bff;
+            text-decoration: underline;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .contact-form input {
+            width: 300px;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <nav>
+        <a href="#">Расписание</a>
+        <a href="#">О занятиях</a>
+        <a href="#">Адреса клубов</a>
+    </nav>
+    <main>
+        <h1>Болдеринг</h1>
+        <div class="image-grid">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEq3ajFOe8T6uzKRcXASV36OerLLNk5GaZ5A&s" alt="Изображение 1">
+            <img src="https://sport.hse.ru/pubs/share/direct/859373028.jpg/300x200" alt="Изображение 2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8jBs1lFmIoih003wNkv77-CmTIh43n2n98A&s/300x200" alt="Изображение 3">
+        </div>
+        <div class="text-block">
+            <p>Никогда не были на скалодроме? — Скорее сделайте первую попытку залезть наверх! На наших площадках залы разной трудности. Тренировки безопасны, для новичков предусмотрена автостраховка, в залах работают инструкторы. Для детей выделенные зоны с увлекательными аттракционами. Есть абонемент, скидки и система индивидуальных занятий. Перед посещением, пожалуйста, ознакомьтесь с правилами техники безопасности.</p>
+        </div>
+        <div class="contact-form">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" placeholder="Введите ваш email">
+            <label for="phone">Телефон:</label>
+            <input type="tel" id="phone" placeholder="Введите ваш телефон">
+        </div>
+    </main>
+</body>
+</html>
