@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тур Агентство Kornishon</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.5;
+        }
+        
+        header {
+            background-color: #580101;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            font-size: 2em;
+            margin-bottom: 5px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        
+        .about {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        
+        .tours {
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: #3a86ff;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+        
+        .tour-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 15px;
+        }
+        
+        .tour {
+            background-color: white;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            width: calc(50% - 8px);
+        }
+        
+        .tour img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+        
+        .tour-info {
+            padding: 10px;
+        }
+        
+        .tour-info h3 {
+            color: #3a86ff;
+            margin-bottom: 5px;
+            font-size: 1.1em;
+        }
+        
+        .price {
+            font-weight: bold;
+            color: #ff006e;
+            margin-top: 5px;
+        }
+        
+        footer {
+            background-color: #2b2d42;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        
+        .contacts {
+            margin-top: 10px;
+        }
+        
+        .contacts p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Тур Агентство Kornishon</h1>
+            <p>Мы гарантируем бесплатное место на кладбище.</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <section class="about">
+            <h2>О нас</h2>
+            <p>Мы предлагаем дорогие туры на лучших кладбищах мира. Более 666 лет на рынке туристических услуг. Гарантия больших цен и хороших гробов.</p>
+            <p>Наши специалисты выберут гроб, который вы захотите. Работаем с трупами и комиссиями.</p>
+        </section>
+        
+        <section class="tours">
+            <h2>Наши предложения</h2>
+            <div class="tour-list">
+                <div class="tour">
+                    <img src="https://italy4.me/wp-content/uploads/2014/10/Cimitero-Monumentale-di-Torino.jpg" alt="Италия">
+                    <div class="tour-info">
+                        <h3>Италия</h3>
+                        <p>Рим, Венеция, Флоренция</p>
+                        <div class="price">от 11 231 000 руб.</div>
+                    </div>
+                </div>
+                
+                <div class="tour">
+                    <img src="https://www.vipmemorial.ru/assets/images/publications/starejshie-kladbisha-rossii.jpg" alt="Россия">
+                    <div class="tour-info">
+                        <h3>Россия</h3>
+                        <p>Барнаул, Москва</p>
+                        <div class="price">от 1 021 123 000 руб.</div>
+                    </div>
+                </div>
+                
+                <div class="tour">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Cimeti%C3%A8re_d%27Ivry_%28tombes%29_3.jpg" alt="Франция">
+                    <div class="tour-info">
+                        <h3>Франция</h3>
+                        <p>Париж + Дюнкерк</p>
+                        <div class="price">от 2 213 000 руб.</div>
+                    </div>
+                </div>
+                
+                <div class="tour">
+                    <img src="https://34travel.me/media/upload/images/2018/october/cemetery/1.jpg" alt="США">
+                    <div class="tour-info">
+                        <h3>США</h3>
+                        <p>Вашингтон</p>
+                        <div class="price">от 132 200 00 руб.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <h2 style="color: #D40000;">Контакты</h2>
+            <div class="contacts">
+                <p>Телефон: +6 (666) 666-66-66</p>
+                <p>Email: SMERT@mail.ru</p>
+                <p>Адрес: г. Египет, р. Нил, -1</p>
+            </div>
+            <p style="margin-top: 15px;">© 6666 Тур Агентство Kornishon</p>
+        </div>
+    </footer>
+</body>
+</html>
