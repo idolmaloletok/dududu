@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Travel Agency</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: #eee;
+    }
+
+    .wrapper {
+      max-width: 430px;
+      margin: 0 auto;
+      background: white;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .header {
+      background: linear-gradient(to right, lightblue, white);
+      padding: 30px 20px 10px;
+      position: relative;
+    }
+
+    .header h1 {
+      font-family: Georgia, serif;
+      font-size: 24px;
+      margin: 0;
+      position: relative;
+      z-index: 2;
+    }
+
+    .header .logo {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      font-size: 72px;
+      color: #ccc;
+      opacity: 0.4;
+      font-weight: bold;
+      z-index: 1;
+    }
+
+    h2 {
+      color: darkorange;
+      font-size: 16px;
+      margin-top: 20px;
+    }
+
+    .video-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .video {
+      background: #f4efef;
+      aspect-ratio: 1 / 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 5px;
+    }
+
+    .video::before {
+      content: '▶';
+      font-size: 20px;
+      color: #555;
+    }
+
+    .sidebar {
+      border: 3px solid navy;
+      border-radius: 10px;
+      padding: 10px;
+      font-size: 14px;
+      width: 140px;
+      float: right;
+      margin-left: 10px;
+      margin-top: -130px;
+    }
+
+    .sidebar b {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .sidebar a {
+      display: block;
+      margin: 4px 0;
+      color: black;
+      text-decoration: underline dotted;
+    }
+
+    .footer {
+      margin-top: 40px;
+      border-top: 3px solid darkgreen;
+      padding: 10px;
+      font-size: 14px;
+    }
+
+    .footer img {
+      width: 40px;
+      margin-top: 10px;
+    }
+
+  </style>
+</head>
+<body>
+
+<div class="wrapper">
+  <div class="header">
+    <div class="logo">TA</div>
+    <h1>Travel Agency</h1>
+  </div>
+
+  <h2>Любите экскурсии?</h2>
+  <div class="video-grid">
+    <div class="video"></div>
+    <div class="video"></div>
+    <div class="video"></div>
+    <div class="video"></div>
+  </div>
+
+  <h2>Хотите на море?</h2>
+  <div class="video-grid">
+    <div class="video"></div>
+    <div class="video"></div>
+  </div>
+
+  <h2>Всего понемногу?</h2>
+  <div class="video-grid">
+    <div class="video"></div>
+  </div>
+
+  <div class="sidebar">
+    <b>Полезные ссылки</b>
+    <a href="#">Билеты</a>
+    <a href="#">Отели</a>
+    <a href="#">Чек-лист</a>
+  </div>
+
+  <div class="footer">
+    Напиши — получи скидку!<br>
+    <img src="https://img.icons8.com/color/48/vk-com.png" alt="VK">
+  </div>
+</div>
+
+</body>
+</html>
